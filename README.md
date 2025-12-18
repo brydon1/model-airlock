@@ -27,7 +27,7 @@ AWS CLI (Optional for deployment)
 
 Bash
 ```bash
-git clone [https://github.com/brydon1/model-airlock.git](https://github.com/brydon1/model-airlock.git)
+git clone https://github.com/brydon1/model-airlock.git
 cd model-airlock
 pip install -r requirements.txt
 ```
