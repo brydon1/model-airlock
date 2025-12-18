@@ -1,0 +1,14 @@
+{
+    "model_name": "path-robotics-vision-v1",
+    "version": "1.0.0",
+    "framework": "PyTorch",
+    "author_email": "brydon1@kenyon.edu",
+    "input_tensors": [
+      {
+        "name": "camera_feed",
+        "dims": [1, 3, 224, 224],
+        "dtype": "float32"
+      }
+    ],
+    "output_tensors": []
+}

@@ -1,0 +1,20 @@
+# 1. The Virtual Environment
+# Ignore the folder where the libraries live.
+venv/
+.venv/
+env/
+
+# 2. Python Bytecode
+# Python generates these compiled files automatically. Never commit them.
+__pycache__/
+*.pyc
+
+# 3. System Junk
+.DS_Store
+
+# 4. Local IDE settings (Optional)
+.vscode/
+.idea/
+
+# Note: We are intentionally NOT ignoring *.pt or *.onnx files
+# because we want the ones in /examples to be committed.
